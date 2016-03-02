@@ -3,12 +3,12 @@
 ### Research on Flix
 
 - [**From Datalog to Flix: A Declarative Language for Fixed Points on Lattices**](https://github.com/flix/papers)
-  by Magnus Madsen, Ming-Ho Yee and Ondřej Lhoták.
+  by Magnus Madsen, Ming-Ho Yee, and Ondřej Lhoták.
 
 ### Theoretical Foundations
 
 - [**What You Always Wanted to Know About Datalog (and Never Dared to Ask)**](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=43410)
-  by Stefano Ceri, Georg Gottlob and Letizia Tanca.
+  by Stefano Ceri, Georg Gottlob, and Letizia Tanca.
 
 - [**Dedalus: Datalog in Time and Space**](http://db.cs.berkeley.edu/papers/datalog2011-dedalus.pdf)
   by Peter Alvaro, William R. Marczak, Neil Conway, Joseph M. Hellerstein, David Maier, and Russell Sears.
@@ -38,24 +38,33 @@
   by Martin Bravenboer and Yannis Smaragdakis.
   
 - [**CodeQuest: Scalable Source Code Queries with Datalog**](http://link.springer.com/chapter/10.1007/11785477_2)
-  Elnar Hajiyev, Mathieu Verbaere and Oege de Moor.
+  Elnar Hajiyev, Mathieu Verbaere, and Oege de Moor.
 
 - [**PAG - An Efficient Program Analyzer Generator**](http://link.springer.com/article/10.1007/s100090050017)
   by Florian Martin.
 
 - [**Hoopl: A Modular, Reusable Library for Dataflow Analysis and Transformation**](http://dl.acm.org/citation.cfm?id=1863539)
-  by Norman Ramsey, Joao Dias and Simon Peyton Jones.
+  by Norman Ramsey, Joao Dias, and Simon Peyton Jones.
 
 ### Debugging
 
 - [**Declarative Datalog Debugging for Mere Mortals**](https://yanniss.github.io/DeclarativeDebugging.pdf)
-  by Sven Kohler, Bertram Ludascher and Yannis Smaragdakis.
+  by Sven Kohler, Bertram Ludascher, and Yannis Smaragdakis.
 
   
 ### Type Classes
 
+- [**How to make ad-hoc Polymorphism less ad hoc**](http://dl.acm.org/citation.cfm?id=75283)
+  by Philip Wadler and Stephen Blott.
+
+- [**Type Classes: Exploring the Design Space**](http://research.microsoft.com/apps/pubs/default.aspx?id=67019)
+  by Simon Peyton Jones, Mark Jones, and Erik Meijer.
+
+- [**A System of Constructor Classes: Overloading and Implicit Higher-Order Polymorphism**](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=1349700&fileId=S0956796800001210)
+  by Mark P. Jones.
+
 - [**Type Classes with Functional Dependencies**](http://link.springer.com/chapter/10.1007/3-540-46425-5_15)
-  by Mark P. Jones
+  by Mark P. Jones.
   
 ### Human Friendly Compilers
 
