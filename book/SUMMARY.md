@@ -6,7 +6,7 @@
     * [Installation](Installation.md)
 * [Learn Flix](Learn-Flix.md)
 * [Syntax and Semantics](Syntax-and-Semantics.md)
-    * [Literals](Syntax-and-Semantics.md)
+    * [Primitive Types](primitive-types.md)
     * [Error-Handling](Exceptions.md)
     * [Grammar](Grammar.md)
 * [Internals](Internals.md)
