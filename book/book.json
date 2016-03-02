@@ -1,0 +1,12 @@
+{
+  "title": "Flix",
+  "description": "The Flix Programming Language",
+  "gitbook": "2.x.x",
+
+  "plugins": ["-sharing"],
+
+  "styles": {
+    "website": "styles/website.css"
+  }
+
+}
