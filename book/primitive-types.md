@@ -38,13 +38,15 @@ def f: Bool = false
 Booleans support the usual operations:
 
 ```flix
-def f(x: Bool, y: Bool): Bool = x && y
-def g(x: Bool, y: Bool): Bool = x || y
-def h(x: Bool, y: Bool): Bool = (x ∧ y) → (x ∨ y)
+def f(x: Bool): Bool = !x
+def g(x: Bool, y: Bool): Bool = x && y
+def h(x: Bool, y: Bool): Bool = x || y
+def j(x: Bool, y: Bool): Bool = (x ∧ y) → (x ∨ y)
 ```
 
-The last function shows that booleans also supported the UTF-8 operators:
+The last function shows that booleans also support the UTF-8 operators:
 `¬` (not), `∧` (and), `∨` (or), `→` (implication), and `↔` (bicondition).
+Implication and bicondition can be written in ASCII as `==>` and `<==>` , respectively.
 
 ### Char
 
