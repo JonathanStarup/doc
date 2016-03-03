@@ -4,7 +4,7 @@ Flix has the primitive types: `Unit`, `Bool`, `Char`, `Int8`, `Int16`, `Int32`, 
 
 | Flix Type | JVM Type  | Examples              | Description                               |
 | --------- | --------- | --------------------- | ----------------------------------------- |
-| Unit      | n/ a      | `()`                  | The Unit value.                           |
+| Unit      | n/ a      | `()`                  | The unit value.                           |
 | Bool      | boolean   | `true`, `false`       | A boolean, true or false.                 |
 | Char      | char      | `'a'`, `'b'`, `'c'`   | A unicode character.                      |
 | Int8      | byte      | `21i8`, `-42i8`       | A  8-bit signed integer.                  |
@@ -20,7 +20,7 @@ Note: The `Str` type may be removed in the future.
 ### Unit
 
 The `Unit` type has the single value `()`. The `Unit` type exists to simplify the language design,
-but has limited use in practice. That said, you can write a function that returns the `Unit`` value:
+but has limited use in practice. That said, you can write a function that returns the `Unit` value:
 
 ```flix
 def f: Unit = ()
@@ -46,11 +46,20 @@ def j(x: Bool, y: Bool): Bool = (x ∧ y) → (x ∨ y)
 
 The last function shows that booleans also support the UTF-8 operators:
 `¬` (not), `∧` (and), `∨` (or), `→` (implication), and `↔` (bicondition).
-Implication and bicondition can be written in ASCII as `==>` and `<==>` , respectively.
+Implication and bicondition can be written in ASCII as `==>` and `<==>`, respectively.
 
 ### Char
 
+The `Char` type represents unicode character values:
+
+```flix
+def a: Char = 'a'
+def b: Char = 'b'
+```
+
 ### Int8
+
+
 
 ### Int16
 
