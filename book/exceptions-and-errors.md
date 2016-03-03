@@ -4,24 +4,29 @@ Flix distinguishes between *compilation errors*, *program errors*, and *internal
 
 ### Compilation Errors
 
-The compiler and run-time should never fail unexpectedly because of an erroneous Flix program.
-If a Flix program is malformed it is responsibility of the compiler to raise the appropriate
-compilation errors. These errors are a completely normally occurrence in the Flix compiler.
+Compilation errors are errors caused by malformed Flix programs,
+e.g. due to syntax errors, name errors, type errors, etc.
+A malformed Flix program should never cause the Flix compiler nor run-time to unexpectedly fail.
+Instead it is responsibility of the compiler to raise the appropriate compilation errors.
 
-Compilation errors are organized in a hierarchy with `CompilationError` at the root:
+All *compilation errors* are organized in the hierarchy shown below:
 
-- `CompilationError` - super-type of any compilation error.
-    - `SyntaxError` - super-type of any syntax error.
-        - `DuplicateFormalArgument` - a specific syntax error.
-        - `NonLinearPattern` - a specific syntax error.
+- `CompilationError` - super-type of all compilation errors.
+    - `SyntaxError` - super-type of all syntax errors.
+        - `DuplicateAnnotation`
+        - `DuplicateAttribute`
+        - `DuplicateFormalArgument`
+        - `DuplicateTag`
+        - `NonLinearPattern`
         - ...
-    - `ResolverError` - a super-type of any resolver error.
-        - `DuplicateDefinition` - a specific resolver error.
-        - `IllegalVariableName` - a specific resolver error.
+    - `ResolverError` - super-type of all resolver errors.
+        - `DuplicateDefinition`
+        - `IllegalVariableName`
+        - `UnresolvedTagReference`
         - ...
-    - `TypeError` - super-type of any type error.
+    - `TypeError` - super-type of all type errors.
         - ...
-    - `VerifierError` - super-type of any verifier error.
+    - `VerifierError` - super-type of all verifier errors.
         - ...
 
 Note that `CompilationError` is ***not*** a (Java) exception nor is it a (Java) error. It is simply an interface.
