@@ -8,11 +8,11 @@ how to compile
 
 ### Libraries / Dependencies
 
-- [Dependencies](Dependencies.md)
+- [Dependencies](dependencies.md)
 
 ### Compiler Phases
 
 The compiler is split into several phases:
 
-- [Parsing](Parsing.md)
-- [Code Generation](Code-Generation.md)
+- [Parsing](parsing.md)
+- [Code Generation](code-generation.md)
