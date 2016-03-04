@@ -1,7 +1,12 @@
 # Library
 
-Flix comes batteries-included with a small but full-featured standard library.
+Flix comes batteries included with small but fully-featured standard library.
 
-### Data Structures
+#### Data Structures
 
 - [List](list.md) - An immutable linked list.
+
+#### Type Classes
+
+- PartialOrder
+

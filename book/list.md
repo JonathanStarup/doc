@@ -1,4 +1,4 @@
-# Lists
+# List
 
 A list is either the empty list Nil or a cons cell v :: vs.
 
