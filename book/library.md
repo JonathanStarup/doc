@@ -4,7 +4,8 @@ Flix comes batteries included with small but fully-featured standard library.
 
 #### Data Structures
 
-- [List](list.md) - An immutable linked list.
+- [Opt](opt.md) - Option.
+- [List](list.md) - Immutable linked list.
 
 #### Type Classes
 
