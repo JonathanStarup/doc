@@ -11,5 +11,16 @@ It is intended for Flix developers and *not* end-users.
 
 The compiler is split into several phases:
 
+#### Frontend
 - [Parsing](parsing.md)
-- [Code Generation](code-generation.md)
+- [Weeding](weeding.md)
+- [Resolver](resolver.md)
+- [Typer](typer.md)
+
+#### Backend
+- [Simplifier](simplifier.md)
+- [Code Generator](code-generator.md)
+
+#### Solver
+- [Data Store](data-store.md)
+- [Solver](solver.md)
