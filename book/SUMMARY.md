@@ -11,6 +11,8 @@
     * [Enumerations](enumerations.md)
     * [Pattern Matching](pattern-matching.md)
     * [Namespaces](namespaces.md)
+    * [Relations and Lattices](relations-and-lattices.md)
+    * [Rules and Facts](rules-and-facts.md)
     * [Grammar](grammar.md)
 * [Library](library.md)
     * [Core](core.md)
