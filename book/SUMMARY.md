@@ -10,6 +10,7 @@
     * [Compound Types](compound-types.md)
     * [Enumerations](enumerations.md)
     * [Pattern Matching](pattern-matching.md)
+    * [Namespaces](namespaces.md)
     * [Grammar](grammar.md)
 * [Library](library.md)
     * [Core](core.md)
