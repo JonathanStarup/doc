@@ -52,15 +52,20 @@ For example, the following is perfectly legal:
 
 ```flix
 namespace a {
-    def f: Bool = true
+    def f: Int = 21
+    def g: Int = 42
 }
 
 namespace a {
-    def g: Bool = f && f
+    def h: Bool = f + g
 }
 ```
 
 Although possible, adding members to a Flix standard library namespace is not recommended.
+
+## Using Namespaces
+
+TBD
 
 ## Type Classes
 
