@@ -61,7 +61,7 @@ def f(o: Opt[Int]): Int = match o with {
 
 The `List` data type represents an immutable linked list.
 The empty listed is denoted by `Nil` and a cons cell is denoted by the special syntax `::`.
-Here is how to construct a list:
+Here is how to construct some lists:
 
 ```flix
 def f: List[Int] = Nil
@@ -90,4 +90,41 @@ def f(xs: List[Int): Bool = match xs with {
 ```
 
 ### Set
+
+The `Set` data type represents an immutable unordered collection of values.
+Sets are denoted by the special syntax `#{...}`.
+Here is how to construct some sets:
+
+```flix
+def f: Set[Int] = #{}         // the empty set
+def g: Set[Int] = #{1}        // a singleton set
+def h: Set[Int] = #{1, 2, 3}  // another set
+```
+
+You can even destruct sets with pattern matching:
+
+```flix
+def f(s: Set[Int): Int = match s with {
+    case #{} => 0
+    case #{x} => 1
+    case #{x, xs...} => 1 + f(xs)
+}
+```
+
+The syntax `xs...` denotes the rest of the set.
+Thus, the last pattern matches an element of the set `x` and the remainder of the set `xs...`.
+
+> ***Warning***: Flix does not guarantee that sets are deconstructed in any specific order.
+> You must ensure that any destructuring is associative (order agnostic).
+
+As another example:
+
+```flix
+def f(s: Set[Int): Bool = match s with {
+    case #{1, x, 3, y} => true
+    case _             => false
+}
+```
+
+Here `f` returns `true` if  given a set that contains exactly four elements of which two are `1` and `3`.
 
