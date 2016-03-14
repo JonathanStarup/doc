@@ -4,6 +4,7 @@
 * [Introduction](introduction.md)
 * [Getting Started](getting-started.md)
     * [Installation](installation.md)
+    * [IDE Support](ide-support.md)
 * [Learn Flix](learn-flix.md)
 * [Syntax and Semantics](syntax-and-semantics.md)
     * [Primitive Types](primitive-types.md)
