@@ -24,7 +24,7 @@ A list is either the empty list Nil or a cons cell v :: vs.
 - **length(xs: List[A]): Int**
     - Returns the length of the list.
 - **append(xs: List[A], ys: List[A]): List[A]**
-    - Returns the length of the list.
+    - Appends the second list to the first.
 - **at(position: Int, xs: List[A]): A**
     - Returns the element at position in the list.
 - **memberOf(x: A, xs: List[A]): Bool**

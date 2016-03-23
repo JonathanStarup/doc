@@ -23,6 +23,7 @@
     * [Map](map.md)
     * [Type Classes](type-classes.md)
 * [Internals](internals.md)
+    * [Roadmap](roadmap.md)
     * [Dependencies](dependencies.md)
     * [Exceptions and Errors](exceptions-and-errors.md)
     * [Parsing](parsing.md)
