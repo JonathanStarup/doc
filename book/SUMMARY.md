@@ -19,6 +19,7 @@
     * [Core](core.md)
     * [Opt](opt.md)
     * [List](list.md)
+    * [Vec](vec.md)
     * [Set](set.md)
     * [Map](map.md)
     * [Type Classes](type-classes.md)

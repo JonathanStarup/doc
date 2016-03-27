@@ -61,6 +61,7 @@ def f(o: Opt[Int]): Int = match o with {
 
 The `List` data type represents an immutable linked list.
 The empty listed is denoted by `Nil` and a cons cell is denoted by the special syntax `::`.
+
 Here is how to construct some lists:
 
 ```flix
@@ -89,10 +90,36 @@ def f(xs: List[Int): Bool = match xs with {
 }
 ```
 
+### Vec
+
+The `Vec` data type represents an immutable fixed-size ordered collection of values.
+
+Here is how to construct some vectors:
+
+```flix
+def f: Vec[Int] = #[]         // the empty vector
+def g: Vec[Int] = #[1]        // a singleton vector
+def h: Vec[Int] = #[1, 2, 3]  // another vector
+```
+
+Vectors can be destructed using pattern matching:
+
+```flix
+def f(xs: Vec[Int): Bool = match xs with {
+    case #[] => true
+    case [x] => false
+    case [x, y, xs...] => f(xs)
+}
+```
+
+The syntax `xs...` denotes the rest of the vector.
+
+
 ### Set
 
 The `Set` data type represents an immutable unordered collection of values.
 Sets are denoted by the special syntax `#{...}`.
+
 Here is how to construct some sets:
 
 ```flix
