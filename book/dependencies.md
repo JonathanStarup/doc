@@ -7,6 +7,7 @@ Flix depends on the following libraries:
 | [JSON4s](https://github.com/json4s/json4s)           |     3.x | Apache License, Version 2.0 |
 | [Parboiled2](https://github.com/sirthias/parboiled2) |     2.x | Apache License, Version 2.0 |
 | [ScalaTest](http://www.scalatest.org/)               |     2.x | Apache License, Version 2.0 |
+| [scopt](https://github.com/scopt/scopt)              |     3.x | MIT License                 |
 | [Shapeless](https://github.com/milessabin/shapeless) |     2.x | Apache License, Version 2.0 |
 | [Z3](https://github.com/Z3Prover/z3)                 |     4.x | Apache License, Version 2.0 |
 | [ASM](http://asm.ow2.org/)                           |     5.x | BSD 3-Clause License        |
