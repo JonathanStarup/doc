@@ -1,7 +1,6 @@
 # Library
 
-Flix comes batteries included with small but fully-featured standard library.
-
+The standard library is still in development and not yet available in the Flix distribution.
 
 #### Core
 - [Core](core.md)

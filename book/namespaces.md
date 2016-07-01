@@ -63,9 +63,19 @@ namespace a {
 
 Although possible, adding members to a Flix standard library namespace is not recommended.
 
-## Using Namespaces
+## Importing Namespaces
 
-TBD
+Namespaces can be imported in three different ways:
+
+```flix
+import a.b.c/_
+import a.b.c/fooBar
+import a.b.c
+```
+
+The first imports every definition inside the `a.b.c` namespace.
+The second imports the definition named `fooBar` in the `a.b.c` namespace.
+The third imports the `a.b.c` namespace.
 
 ## Type Classes
 

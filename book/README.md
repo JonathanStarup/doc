@@ -2,6 +2,8 @@
 
 Welcome to the official website for the documentation of the [Flix](https://github.com/flix) programming language.
 
+***NB: Flix is still under major development and the language is expected to change.***
+
 Flix is a [functional](https://en.wikipedia.org/wiki/Functional_programming) and 
 [logic](https://en.wikipedia.org/wiki/Logic_programming) programming language for 
 [fixpoint](https://en.wikipedia.org/wiki/Fixed_point_mathematics) computations on 
