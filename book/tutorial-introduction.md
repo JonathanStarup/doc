@@ -1,12 +1,10 @@
-# Learn Flix
+# Tutorial: Introduction
 
-This is a copy of the tutorial shipped with Flix.
-
-You can generate this tutorial file by running `java -jar flix.jar --tutorial <file>`. 
+You can generate this tutorial file by running `java -jar flix.jar --tutorial introduction`. 
 
 ```
 //
-// Welcome to the introductory Flix Tutorial!
+// Welcome to the introduction to Flix!
 //
 // In this tutorial we will develop a simple intra-procedural dataflow analysis
 // that performs constant propagation for local variables. The program language

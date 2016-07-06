@@ -1,11 +1,12 @@
 # Summary
 
 * [The Flix Programming Language](README.md)
-* [Introduction](introduction.md)
 * [Getting Started](getting-started.md)
     * [Installation](installation.md)
     * [IDE Support](ide-support.md)
-* [Learn Flix](learn-flix.md)
+* [Tutorials](tutorials.md)
+    * [Introduction](tutorial-introduction.md)
+    * [Delta Debugging](tutorial-delta-debugging.md)
 * [Syntax and Semantics](syntax-and-semantics.md)
     * [Primitive Types](primitive-types.md)
     * [Compound Types](compound-types.md)
