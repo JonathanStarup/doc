@@ -41,7 +41,9 @@ This gives rise to `FlixException`s that may be thrown at run-time as shown belo
     - `FlixException` - a common super-type for exceptions caused by Flix programs.
         - `UserException` - an exception explicitly thrown by the programmer.
         - `MatchException` - an exception thrown due to an incomplete match.
+        - `RuleException` - an exception thrown due to an integrity rule violation.
         - `SwitchException` - an exception thrown due to an incomplete switch.
+        - `TimeoutException` - an exception thrown due to a user-specified timeout.
 
 A *correct* Flix program should never throw any of these exceptions.
 
