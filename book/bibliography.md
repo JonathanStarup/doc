@@ -51,6 +51,13 @@
 - [**Declarative Datalog Debugging for Mere Mortals**](https://yanniss.github.io/DeclarativeDebugging.pdf)
   by Sven Kohler, Bertram Ludascher, and Yannis Smaragdakis.
 
+### QuickChecking
+  
+- [**QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs**](http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf)
+  by Koen Claessen and John Hughes.
+  
+- [**QuickChecking Static Analysis Properties**](http://cs.au.dk/~amoeller/papers/lcheck/paper.pdf)
+  by Jan Midtgaard and Anders Møller.
   
 ### Type Classes
 
