@@ -1,6 +1,6 @@
 # Primitive Types
 
-Flix has the primitive types: `Unit`, `Bool`, `Char`, `Int8`, `Int16`, `Int32`, `Int64` and `Str`:
+Flix has the primitive types: `Unit`, `Bool`, `Char`, `Int8`, `Int16`, `Int32`, `Int64`, `BigInt`, `Float32`, `Float64` and `Str`:
 
 | Flix Type | JVM Type  | Examples              | Description                               |
 | --------- | --------- | --------------------- | ----------------------------------------- |
@@ -11,6 +11,9 @@ Flix has the primitive types: `Unit`, `Bool`, `Char`, `Int8`, `Int16`, `Int32`, 
 | Int16     | short     | `21i16`, `-42i16`     | A 16-bit signed integer.                  |
 | Int32     | int       | `42`, `42i32`         | A 32-bit signed integer.                  |
 | Int64     | long      | `21i64`, `-42i64`     | A 64-bit signed integer.                  |
+| BigInt    | BigInteger| `21ii`, `-42ii`       | An arbitrary precision signed integer.    |
+| Float32   | float     | `21.7f32`, `-42.87f32`| A 32-bit floating point number.           |
+| Float64   | double    | `21.7f64`, `-42.87f64`| A 64-bit floating point number.           |
 | Str       | String    | `"foo"`, `"bar"`      | A string.                                 |
 
 Note: The `Int32` type is available under the alias `Int`.
@@ -109,9 +112,46 @@ def min: Int64 = -9223372036854775807i64
 def max: Int64 =  9223372036854775806i64
 ```
 
-### Operations on Int8, Int16, Int32 and Int32
+### BigInt
 
-The types `Int8`, `Int16`, `Int32` and `Int64` all support the operators:
+The `BigInt` type represents arbitrary precision signed integers.
+
+
+```flix
+def one: BigInt = 42ii - 41ii
+def two: BigInt = 2ii
+def three: BigInt =  1000000000000000000000003ii - 1000000000000000000000000ii
+```
+
+### Float32
+
+The `Float32` type represents 32-bit floating point numbers.
+
+The minimum and maximum value a `Float32` can hold is `(2-2^-23) * 2^127 (approximately 3.402823466385288598117e38)` and `-(2-2^-23) * 2^127 (approximately -3.402823466385288598117e38)`, respectively.
+
+
+```flix
+def one: Float32 = 42.0f32 - 41.0f32
+def two: Float32 = 2.0f32
+def three: Float32 = 88.888f32 - 85.888f32
+```
+
+### Float64
+
+The `Float64` type represents 64-bit floating point numbers.
+
+The minimum and maximum value a `Float64` can hold is `(2-2^-52) * 2^1023 (approximately 1.797693134862315708145e308)` and `-(2-2^-52) * 2^1023 (approximately -1.797693134862315708145e308)`, respectively.
+
+
+```flix
+def one: Float64 = 42.0f32 - 41.0f32
+def two: Float64 = 2.0f32
+def three: Float64 = 88.888f32 - 85.888f32
+```
+
+### Operations on Int8, Int16, Int32, Int64 and BigInt
+
+The types `Int8`, `Int16`, `Int32`, `Int64` and `BigInt` all support the operators:
 
 | Operators                                         | Description                                                       |
 | ------------------------------------------------- | ----------------------------------------------------------------- |
