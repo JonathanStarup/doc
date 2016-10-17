@@ -1,4 +1,0 @@
-# Syntax and Semantics
-
-### Literals
-

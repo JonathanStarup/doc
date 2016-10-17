@@ -2,8 +2,12 @@
 
 ### Research on Flix
 
-- [**From Datalog to Flix: A Declarative Language for Fixed Points on Lattices**](https://github.com/flix/papers)
+- [**From Datalog to Flix: A Declarative Language for Fixed Points on Lattices**](https://flix.github.io/pub/pldi2016/paper.pdf)
   by Magnus Madsen, Ming-Ho Yee, and Ondřej Lhoták.
+
+- [** Programming a Dataflow Analysis in Flix**](https://flix.github.io/pub/tapas2016/abstract.pdf)
+  by Magnus Madsen, Ming-Ho Yee, and Ondřej Lhoták.
+
 
 ### Theoretical Foundations
 
@@ -75,8 +79,8 @@
   
 ### Human Friendly Compilers
 
-- Blog post on [**Expressive Diagnostics**](http://clang.llvm.org/diagnostics.html) in Clang.
+- [**Expressive Diagnostics**](http://clang.llvm.org/diagnostics.html) in Clang.
 
-- Blog post on [**Compiler Errors for Humans**](http://elm-lang.org/blog/compiler-errors-for-humans) in Elm by Evan Czaplicki.
+- [**Compiler Errors for Humans**](http://elm-lang.org/blog/compiler-errors-for-humans) in Elm by Evan Czaplicki.
 
-- Blog post on [**Compilers as Assistants**](http://elm-lang.org/blog/compilers-as-assistants) in the Elm by Evan Czaplicki.
+- [**Compilers as Assistants**](http://elm-lang.org/blog/compilers-as-assistants) in the Elm by Evan Czaplicki.

@@ -2,7 +2,7 @@
 
 You can generate this tutorial file by running `java -jar flix.jar --tutorial delta-debugging`.
  
-```
+```flix
 //
 // Welcome to the delta debugging tutorial!
 //

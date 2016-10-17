@@ -2,7 +2,7 @@
 
 You can generate this tutorial file by running `java -jar flix.jar --tutorial introduction`. 
 
-```
+```flix
 //
 // Welcome to the introduction to Flix!
 //

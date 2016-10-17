@@ -1,3 +1,0 @@
-# Type Classes
-
-TBD
