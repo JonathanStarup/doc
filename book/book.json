@@ -1,12 +1,18 @@
 {
   "title": "Flix",
   "description": "The Flix Programming Language",
-  "gitbook": "2.x.x",
-
-  "plugins": ["-sharing"],
-
+  "gitbook": "3.2.x",
+  "plugins": [
+    "addcssjs",
+    "-sharing"
+  ],
   "styles": {
-    "website": "styles/website.css"
+    "website": "css/style.css"
+  },
+  "pluginsConfig": {
+    "addcssjs": {
+      "js": ["js/highlight.pack.js", "js/boot.js"],
+      "css": ["css/highlight/idea.css"]
+    }
   }
-
 }
