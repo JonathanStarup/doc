@@ -1,8 +1,6 @@
-# IDE Support
+# Syntax Highlighting
 
 Flix currently has limited IDE support, but it is possible to get syntax highlighting.
-
-## Syntax Highlighting
 
 #### IntelliJ IDEA
 
