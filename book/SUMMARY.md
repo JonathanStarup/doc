@@ -3,6 +3,7 @@
 * [The Flix Programming Language](README.md)
 * [Getting Started](ch01-00-getting-started.md)
     * [Syntax Highlighting](ch01-01-syntax-highlighting.md)
+    * [Flix In Five Minutes](ch01-02-flix-in-five-minutes.md)
 * [Tutorials](ch02-00-tutorials.md)
     * [Introduction](ch02-01-introduction.md)
     * [Interpreter](ch02-02-interpreter.md)
