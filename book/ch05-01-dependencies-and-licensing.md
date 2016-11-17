@@ -15,7 +15,7 @@ Flix depends on the following libraries:
 | [Bootstrap](http://getbootstrap.com/)                | MIT License                 |     No    |    Yes    | Web-based Debugger |
 | [ChartJS](http://www.chartjs.org/)                   | MIT License                 |     No    |    Yes    | Web-based Debugger |
 | [jQuery](https://jquery.com/)                        | MIT License                 |     No    |    Yes    | Web-based Debugger |
-| [JSON4s](https://github.com/json4s/json4s)           | Apache License, Version 2.0 |     No    |    Yes    | Web-based Debugger |
+| [JSON4s](https://github.com/json4s/json4s)           | Apache License, Version 2.0 |    Yes    |    Yes    | Web-based Debugger |
 | [NumeralJS](http://numeraljs.com/)                   | MIT License                 |     No    |    Yes    | Web-based Debugger |
 | [React](https://github.com/facebook/react)           | BSD 3-Clause License        |     No    |    Yes    | Web-based Debugger |
 
