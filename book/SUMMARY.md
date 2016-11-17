@@ -18,7 +18,7 @@
     * [Rules and Facts](ch03-07-rules-and-facts.md)
 * [Questions and Answers](ch04-00-questions-and-answers.md)
 * [Internals](ch05-00-internals.md)
-    * [Dependencies](ch05-01-dependencies.md)
+    * [Dependencies and Licensing](ch05-01-dependencies-and-licensing.md)
     * [Exceptions and Errors](ch05-02-exceptions-and-errors.md)
     * [Parsing](ch05-03-parsing.md)
 * [Contributing](ch06-00-contributing.md)
