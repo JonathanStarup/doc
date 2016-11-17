@@ -10,7 +10,7 @@ Flix depends on the following libraries:
 | [Parboiled2](https://github.com/sirthias/parboiled2) | Apache License, Version 2.0 |    Yes    |    Yes    | Parsing            |
 | [Shapeless](https://github.com/milessabin/shapeless) | Apache License, Version 2.0 |    Yes    |    Yes    | Parsing            |
 | [ScalaTest](http://www.scalatest.org/)               | Apache License, Version 2.0 |    Yes    |     No    | Testing            |
-| [scopt](https://github.com/scopt/scopt)              | MIT License                 |     No    |    Yes    | Commandline Parser |
+| [scopt](https://github.com/scopt/scopt)              | MIT License                 |    Yes    |    Yes    | Commandline Parser |
 | [Z3](https://github.com/Z3Prover/z3)                 | Apache License, Version 2.0 |     No    |     No    | Verifier           |
 | [Bootstrap](http://getbootstrap.com/)                | MIT License                 |     No    |    Yes    | Web-based Debugger |
 | [ChartJS](http://www.chartjs.org/)                   | MIT License                 |     No    |    Yes    | Web-based Debugger |
