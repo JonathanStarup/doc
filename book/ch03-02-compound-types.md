@@ -74,7 +74,7 @@ def i: List[Int] = 1 :: 2 :: 3 :: Nil
 Lists can be destructed with pattern matching:
 
 ```flix
-def f(xs: List[Int): Int = match xs with {
+def f(xs: List[Int]): Int = match xs with {
     case Nil => 0
     case x :: xs => x + f(xs)
 }
@@ -83,7 +83,7 @@ def f(xs: List[Int): Int = match xs with {
 Another example:
 
 ```flix
-def f(xs: List[Int): Bool = match xs with {
+def f(xs: List[Int]): Bool = match xs with {
     case Nil => true
     case x :: Nil => false
     case x :: y :: Nil => f(xs)
@@ -105,10 +105,10 @@ def h: Vec[Int] = #[1, 2, 3]  // another vector
 Vectors can be destructed using pattern matching:
 
 ```flix
-def f(xs: Vec[Int): Bool = match xs with {
+def f(xs: Vec[Int]): Bool = match xs with {
     case #[] => true
-    case [x] => false
-    case [x, y, xs...] => f(xs)
+    case #[x] => false
+    case #[x, y, xs...] => f(xs)
 }
 ```
 
@@ -131,7 +131,7 @@ def h: Set[Int] = #{1, 2, 3}  // another set
 You can even destruct sets with pattern matching:
 
 ```flix
-def f(s: Set[Int): Int = match s with {
+def f(s: Set[Int]): Int = match s with {
     case #{} => 0
     case #{x} => 1
     case #{x, xs...} => 1 + f(xs)
@@ -147,7 +147,7 @@ Thus, the last pattern matches an element of the set `x` and the remainder of th
 As another example:
 
 ```flix
-def f(s: Set[Int): Bool = match s with {
+def f(s: Set[Int]): Bool = match s with {
     case #{1, x, 3, y} => true
     case _             => false
 }
