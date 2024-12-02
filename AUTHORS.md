@@ -4,3 +4,4 @@ By adding your name to this document, you agree to release all your contribution
 
 - [Magnus Madsen](https://github.com/magnus-madsen) ([website](http://plg.uwaterloo.ca/~mmadsen/))
 - [Ayaz Badouraly](https://github.com/badouralix)
+- [Jonathan Lindegaard Starup](https://github.com/JonathanStarup)
